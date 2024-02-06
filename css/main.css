@@ -1,0 +1,56 @@
+html {
+    font-family: 'Alata', sans-serif;
+    color: white;
+    background-color: #2F2F2F;
+}
+
+
+
+.header__button {
+    text-decoration: none;
+    color: white;
+}
+.header__button :hover {
+    transform: scaleX(1.2) scaleY(1.2);
+    transition-duration: .2s;
+}
+
+
+
+sub {
+    color: #FF0000;
+    left: -10px;
+    top: 10px;
+}
+
+.line__horizontal {
+    background-color: white;
+    width: 100%;
+    height: 3px;
+}
+header {
+    margin: auto;
+    background-color: rgb(0, 0, 0);
+
+    vertical-align: middle;
+}
+
+.header__flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 2em 0 1em;
+}
+.header__links {
+    display: flex;
+    gap: 1em;
+    padding-top: .75em;
+}
+.header__logo {
+    padding-top: 1em;
+}
+.line__vertical {
+    background-color: rgb(255, 255, 255);
+    width: 2px;
+    height: 38px;
+}
