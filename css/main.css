@@ -199,3 +199,20 @@ article {
     color: #0075FF;
     transition: .2s;
 }
+
+
+
+
+
+
+footer {
+    background-color: rgb(0, 0, 0);
+}
+.footer__logo {
+    padding-left: 1em;
+    padding-top: 1em;
+}
+.footer__text p {
+    text-align: left;
+    margin-left: 5em;
+}
