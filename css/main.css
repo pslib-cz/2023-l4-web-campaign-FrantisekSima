@@ -4,6 +4,14 @@ html {
     background-color: #2F2F2F;
 }
 
+main {
+    background-image: url(../img/Group7.png);
+    width: 100%;
+    background-position: center;
+    height: 530px;
+    background-repeat: no-repeat;
+}
+
 
 
 .header__button {
@@ -159,7 +167,6 @@ article {
 
 .button {
     background-color: #0075FF;
-    padding: 1em;
     margin: auto;
     max-width: fit-content;
     text-decoration: none;
@@ -167,5 +174,12 @@ article {
 }
 .button a {
     text-decoration: none;
+    padding-top: 5em;
+    font-size: 20px;
     color: white;
 }
+.button a :hover {
+    transform: scaleX(1.2) scaleY(1.2);
+    transition-duration: .2s;
+}
+
