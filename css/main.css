@@ -4,11 +4,11 @@ html {
     background-color: #2F2F2F;
 }
 
-main {
-    background-image: url(../img/Group7.png);
+.background__lines {
+    background-image: url("../img/Group7.png");
     width: 100%;
     background-position: center;
-    height: 530px;
+    height: 100%;
     background-repeat: no-repeat;
 }
 
@@ -108,6 +108,10 @@ header {
     align-items: center;
     background-repeat: no-repeat;
 }  
+.section__radiant {
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(0,0,0,1) 33%, rgba(0,0,0,1) 65%, rgba(255,255,255,0) 100%);
+}
 .title__2 h2 {
     background-color: rgba(0, 0, 0, 0.603);
     padding-top: 2em;
@@ -118,7 +122,10 @@ header {
 
 
 
-
+a {
+    text-decoration: none;
+    color: white;
+}
 .h1 {
     margin:0 0 0 0;
     text-align: center;
@@ -133,9 +140,10 @@ h2 {
 }
 h3 {
     text-align: center;
-    padding-top: 1em;
+    padding-top: 4em;
     padding-bottom: .1em;
     font-size: 25px;
+    margin-top: 0;
 }
 p {
     text-align: center;
@@ -168,20 +176,26 @@ article {
 
 
 .button {
-    background-color: #0075FF;
-    margin: auto;
-    max-width: fit-content;
-    text-decoration: none;
-    margin-top: 2em;
+    display: flex;
+    justify-content: center;
 }
 .button a {
     text-decoration: none;
-    padding-top: 5em;
-    font-size: 20px;
+    font-size: 25px;
     color: white;
+    background-color: #0075FF;
+    margin: auto;
+    margin-top: 2em;
+    padding: .5em;
 }
 .button a :hover {
     transform: scaleX(1.2) scaleY(1.2);
     transition-duration: .2s;
 }
-
+.mail {
+    transition: .2s;
+}
+.mail:hover {
+    color: #0075FF;
+    transition: .2s;
+}
