@@ -23,11 +23,7 @@ sub {
     top: 10px;
 }
 
-.line__horizontal {
-    background-color: white;
-    width: 100%;
-    height: 3px;
-}
+
 header {
     margin: auto;
     background-color: rgb(0, 0, 0);
@@ -49,10 +45,38 @@ header {
 .header__logo {
     padding-top: 1em;
 }
+
+
+
 .line__vertical {
     background-color: rgb(255, 255, 255);
     width: 2px;
     height: 38px;
+}
+.line__horizontal {
+    background-color: white;
+    width: 100%;
+    height: 3px;
+}
+.line__header {
+    background-color: white;
+    width: 550px;
+    height: 5px;
+    margin: auto;
+    margin-top: 1em;
+}
+.line__small {
+    background-color: white;
+    width: 150px;
+    height: 3px;
+    margin: auto;
+    margin-top: 1em;
+}
+.line__small--small {
+    background-color: white;
+    width: 75px;
+    height: 3px;
+    margin: auto;
 }
 
 
@@ -73,8 +97,16 @@ header {
     justify-content: center;
     align-items: center;
     background-repeat: no-repeat;
-
 }  
+.title__2 h2 {
+    background-color: rgba(0, 0, 0, 0.603);
+    padding-top: 2em;
+    padding-bottom: 2em;
+    width: 100%;
+    
+}
+
+
 
 
 .h1 {
@@ -103,26 +135,37 @@ p {
 section {
     padding-bottom: 3em;
 }
+article {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+    padding: 2em;
+}
 
 
-.title__2 h2 {
-    background-color: rgba(0, 0, 0, 0.603);
-    padding-top: 2em;
-    padding-bottom: 2em;
-    width: 100%;
-    
+
+.last {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 4em;
+    margin-bottom: 3em;
 }
-.line__header {
-    background-color: white;
-    width: 550px;
-    height: 5px;
-    margin: auto;
-    margin-top: 1em;
+.last img {
+    max-width: 600px;
 }
-.line__small {
-    background-color: white;
-    width: 150px;
-    height: 3px;
+
+
+.button {
+    background-color: #0075FF;
+    padding: 1em;
     margin: auto;
-    margin-top: 1em;
+    max-width: fit-content;
+    text-decoration: none;
+    margin-top: 2em;
+}
+.button a {
+    text-decoration: none;
+    color: white;
 }
