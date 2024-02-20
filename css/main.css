@@ -17,8 +17,9 @@ html {
 .header__button {
     text-decoration: none;
     color: white;
+    transition-duration: .2s;
 }
-.header__button :hover {
+.header__button:hover {
     transform: scaleX(1.2) scaleY(1.2);
     transition-duration: .2s;
 }
@@ -187,8 +188,9 @@ article {
     margin: auto;
     margin-top: 2em;
     padding: .5em;
+    transition: .2s;
 }
-.button a :hover {
+.button a:hover {
     transform: scaleX(1.2) scaleY(1.2);
     transition-duration: .2s;
 }
@@ -260,4 +262,8 @@ footer {
     height: 20px;
     margin-left: 1em;
     margin-right: 1em;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
